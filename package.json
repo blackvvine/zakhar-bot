@@ -11,10 +11,15 @@
   "dependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
+    "grunt": "^1.0.1",
+    "jshint-stylish": "^2.2.1",
     "lyric-get": "^1.0.3",
     "request": "^2.81.0",
     "telebot": "^1.2.2",
     "urlencode": "^1.1.0",
     "webpack": "^3.3.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^1.1.0"
   }
 }
