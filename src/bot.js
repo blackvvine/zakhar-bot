@@ -11,7 +11,7 @@ function getLyricsEngine() {
         case 'musixmatch':
             return musixmatch;
         default:
-            throw new Exception(`Unknown engine: ${config.lyricsEngine}`);
+            throw Error(`Unknown engine: ${config.lyricsEngine}`);
     }
 }
 

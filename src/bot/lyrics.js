@@ -3,7 +3,7 @@
 const bot = require('../bot');
 
 const lyrics = bot.getLyricsEngine();
-const print = console.log
+const print = console.log;
 
 function handle(msg, props) {
     
@@ -20,6 +20,6 @@ function handle(msg, props) {
     });
 }
 
-module.exports = { handle }
+module.exports = { handle };
 
 

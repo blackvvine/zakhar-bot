@@ -4,7 +4,7 @@ const request = require('request');
 const config = require('./config');
 const urlencode = require('urlencode');
 
-const print = console.log
+const print = console.log;
 
 function searchLyrics(artist, track, callback) {
     
@@ -28,7 +28,7 @@ function searchLyrics(artist, track, callback) {
 }
 
 
-module.exports = { searchLyrics }
+module.exports = { searchLyrics };
 
 // searchLyrics("bohemian rhapsody", "queen", (a,b) => print(b));
 
